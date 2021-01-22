@@ -1,0 +1,220 @@
+.debug{
+  border: 1px solid black;
+}
+
+h2{
+  font-size: 40px;
+}
+
+nav [class*="col-"]{
+  height: 90px;
+}
+
+
+.my_button{
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  text-align: center;
+  float: right;
+  position: relative;
+  top:50%;
+  transform: translate(0, -50%);
+}
+
+
+nav{
+  background-color: #2c3e50;
+  color: white;
+}
+
+nav li{
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+  line-height: 90px;
+  margin: 0 15px;
+  font-size: 2rem;
+}
+
+nav li a{
+  color: white;
+}
+
+nav li:hover{
+  color: #1abc9c;
+  cursor: pointer;
+}
+
+.logo-top{
+  line-height: 90px;
+  font-size: 3.5rem;
+}
+
+.jumbotron{
+  background-color: #1abc9c;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron img{
+  width: 24rem;
+}
+
+.line{
+  height: 5px;
+  width: 100px;
+  margin: 0 15px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.l-white{
+  background-color: white;
+}
+
+.star{
+  font-size: 4rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.jumbotron > div{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* ABOUT */
+
+#about{
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+}
+
+#about .row{
+  text-align: left;
+}
+
+#about h2{
+  margin-top: 50px;
+}
+
+.my-download-button{
+  background-color: #1abc9c;
+  color: white;
+  margin: 50px auto;
+}
+
+/* CONTACT */
+
+#contact h2, #star_dec_align{
+  text-align: center;
+}
+
+#contact h2{
+  margin-top: 50px;
+}
+
+form{
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input, textarea{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+.my-send-button{
+  background-color: #1abc9c;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.my-send-button:hover{
+  background-color: #16947d;
+  color: white;
+}
+
+
+/* FOOTER */
+
+footer{
+  background-color: #3a546d;
+  color: white;
+  text-align: center;
+}
+
+.social{
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.social:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+footer h3{
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+footer p{
+  font-size: 1.8rem;
+}
+
+footer a{
+  color: #1abc9c;
+}
+
+.copyright{
+  height: 70px;
+  line-height: 70px;
+  background-color: #1a252f;
+  margin-top: 50px;
+
+}
+
+.copyright p{
+  font-size: 1.5rem;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  .logo-top{
+    font-size: 2.3rem;
+  }
+
+  footer [class*="col-"]{
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+  .item img{
+    max-height: 200px;
+    border-radius: 1rem;
+  }
+
+}
