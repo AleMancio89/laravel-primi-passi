@@ -13,18 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Route::get('/', function () {
-    return view('welcome');
-}); */
+Route::get('/', 'HomeController@index');
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/home', 'HomeController@index');
 
-Route::get('/home', function () {
-    return view('home');
-});
+Route::get('/about', 'AboutController@index');
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/dischi', 'DischiController@index');
